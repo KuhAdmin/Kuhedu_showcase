@@ -30,7 +30,7 @@ export function Hero() {
             Building the <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Digital Future</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-lg leading-relaxed">
-            Kuhedu is a premier web and mobile development company crafting next-generation solutions in EdTech, LegalTech, and beyond.
+            Kuhedu is an AI-first web and mobile development company crafting next-generation solutions in EdTech, LegalTech, Scientific Language learning and other high-impact sectors.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <Link href="/products">

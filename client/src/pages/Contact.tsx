@@ -43,7 +43,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">Email</h3>
-                    <p className="text-slate-600">contact@kuhedu.com</p>
+                    <p className="text-slate-600">founder@kuhedu.com</p>
                   </div>
                 </div>
                 <div className="flex gap-4 items-start">
@@ -52,7 +52,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">Phone</h3>
-                    <p className="text-slate-600">+91 (033) 1234-5678</p>
+                    <p className="text-slate-600">(+91) 99113 85653</p>
                   </div>
                 </div>
               </div>
