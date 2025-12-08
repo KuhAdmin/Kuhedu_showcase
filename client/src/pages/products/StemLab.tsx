@@ -13,10 +13,8 @@ export default function StemLab() {
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <Link href="/">
-            <a className="inline-flex items-center text-slate-400 hover:text-white mb-8 transition-colors">
-              <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
-            </a>
+          <Link href="/" className="inline-flex items-center text-slate-400 hover:text-white mb-8 transition-colors">
+            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
           </Link>
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold font-heading mb-6">StemLab.site</h1>

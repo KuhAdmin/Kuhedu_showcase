@@ -34,10 +34,8 @@ export function ProductCard({ title, description, image, link, tags }: ProductCa
         <CardDescription className="line-clamp-2">{description}</CardDescription>
       </CardHeader>
       <CardFooter>
-        <Link href={link}>
-          <Button variant="ghost" className="p-0 hover:bg-transparent hover:text-primary group-hover:translate-x-1 transition-all">
-            Learn More <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+        <Link href={link} className="inline-flex items-center text-sm font-medium hover:text-primary group-hover:translate-x-1 transition-all">
+          Learn More <ArrowRight className="ml-2 h-4 w-4" />
         </Link>
       </CardFooter>
     </Card>

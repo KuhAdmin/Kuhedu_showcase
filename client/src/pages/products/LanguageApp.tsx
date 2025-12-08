@@ -13,10 +13,8 @@ export default function LanguageApp() {
           <div className="absolute inset-0 bg-indigo-900/80" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <Link href="/">
-            <a className="inline-flex items-center text-indigo-200 hover:text-white mb-8 transition-colors">
-              <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
-            </a>
+          <Link href="/" className="inline-flex items-center text-indigo-200 hover:text-white mb-8 transition-colors">
+            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
           </Link>
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold font-heading mb-6">LinguaConnect</h1>
