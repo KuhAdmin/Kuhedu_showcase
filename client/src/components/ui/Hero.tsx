@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 import heroBg from "@assets/generated_images/abstract_technology_visualization_with_network_nodes_and_clean_lines_in_deep_blue_and_cyan.png";
 
 export function Hero() {
@@ -32,12 +33,16 @@ export function Hero() {
             Kuhedu is a premier web and mobile development company crafting next-generation solutions in EdTech, LegalTech, and beyond.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 h-12 text-lg rounded-full">
-              Explore Products
-            </Button>
-            <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 h-12 text-lg rounded-full">
-              Contact Us
-            </Button>
+            <Link href="/products">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 h-12 text-lg rounded-full">
+                Explore Products
+              </Button>
+            </Link>
+            <Link href="/contact">
+              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 h-12 text-lg rounded-full">
+                Contact Us
+              </Button>
+            </Link>
           </div>
         </motion.div>
         
