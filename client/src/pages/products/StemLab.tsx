@@ -38,6 +38,7 @@ export default function StemLab() {
             <ul className="space-y-4">
               {[
                 "Virtual Physics, Chemistry, and Biology Experiments",
+                "Interactive Mathematics Lab with 3D Visualizations",
                 "Real-time data visualization and analysis",
                 "Safe environment for hazardous experiments",
                 "Accessible on web and mobile devices",
