@@ -61,24 +61,6 @@ export default function LegalTech() {
             </div>
           </div>
           
-          <div className="flex-1">
-            <div className="bg-slate-100 p-8 rounded-2xl border border-slate-200">
-              <h3 className="text-2xl font-bold font-heading mb-6">Designed for Advocates</h3>
-              <form className="space-y-4">
-                <div className="space-y-2">
-                  <label className="text-sm font-medium text-slate-700">Email Address</label>
-                  <input type="email" placeholder="advocate@example.com" className="w-full p-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-medium text-slate-700">Firm Name</label>
-                  <input type="text" placeholder="Legal Firm LLP" className="w-full p-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500" />
-                </div>
-                <Button className="w-full bg-slate-900 text-white hover:bg-slate-800">
-                  Join Waitlist
-                </Button>
-              </form>
-            </div>
-          </div>
         </div>
       </div>
     </Layout>
