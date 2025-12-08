@@ -22,9 +22,6 @@ export default function LegalTech() {
               The ultimate practice management solution for modern advocates. 
               Streamline your workflow, manage clients, and secure your documents.
             </p>
-            <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white rounded-full px-8">
-              Request Demo
-            </Button>
           </div>
         </div>
       </div>
