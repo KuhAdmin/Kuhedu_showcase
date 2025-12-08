@@ -22,9 +22,6 @@ export default function StemLab() {
               Revolutionizing science education with immersive virtual laboratory experiments. 
               Safe, accessible, and engaging STEM learning for students everywhere.
             </p>
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-8">
-              Visit Website
-            </Button>
           </div>
         </div>
       </div>
