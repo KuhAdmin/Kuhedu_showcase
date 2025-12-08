@@ -39,7 +39,7 @@ export function Footer() {
         </div>
       </div>
       <div className="container mx-auto px-4 mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-        &copy; {new Date().getFullYear()} Kuhedu. All rights reserved.
+        &copy; {new Date().getFullYear()} Kuhedu Technologies (P) Ltd. All rights reserved.
       </div>
     </footer>
   );
