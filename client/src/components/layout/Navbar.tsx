@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import kuheduLogo from "@assets/kuhedu_new_logo_1765202946764.png";
+import kuheduLogo from "@assets/kuhedu_new_logo-transparent_1765208884708.png";
 
 export function Navbar() {
   const [location] = useLocation();
