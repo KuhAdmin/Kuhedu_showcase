@@ -36,7 +36,7 @@ export default function StemLab() {
             <ul className="space-y-4">
               {[
                 "Virtual Physics, Chemistry, and Biology Experiments",
-                "Interactive Mathematics Lab with 3D Visualizations",
+                "Interactive Mathematics Lab with Geometry, Algebra... 2D/3D Visualizations",
                 "Real-time data visualization and analysis",
                 "Safe environment for hazardous experiments",
                 "Accessible on web and mobile devices",
@@ -57,12 +57,12 @@ export default function StemLab() {
             </p>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-4 rounded-lg shadow-sm">
-                <div className="text-3xl font-bold text-blue-600 mb-1">50+</div>
+                <div className="text-3xl font-bold text-blue-600 mb-1">25+</div>
                 <div className="text-sm text-slate-500">Virtual Experiments</div>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-sm">
-                <div className="text-3xl font-bold text-blue-600 mb-1">10k+</div>
-                <div className="text-sm text-slate-500">Active Students</div>
+                <div className="text-3xl font-bold text-blue-600 mb-1">1K+</div>
+                <div className="text-sm text-slate-500">Launch day Users</div>
               </div>
             </div>
           </div>

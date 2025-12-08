@@ -45,8 +45,8 @@ export default function About() {
           >
             <h1 className="text-5xl md:text-6xl font-bold font-heading mb-6">About Kuhedu</h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              We are a premier web and mobile development company headquartered in Kolkata, India, 
-              dedicated to building innovative digital solutions that transform industries.
+              We are an AI-first web and mobile development company headquartered in Kolkata, India, 
+              dedicated to building innovative digital solutions that transform user experience.
             </p>
           </motion.div>
         </div>
@@ -60,14 +60,14 @@ export default function About() {
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
                   Founded with a vision to bridge the gap between technology and real-world impact, 
-                  Kuhedu has grown into a multi-product company serving users across education, 
-                  legal, and language learning sectors.
+                  Kuhedu was incorporated to be a multi-product company serving users across education, 
+                  legal, language learning and other high-impact sectors.
                 </p>
                 <p>
                   Our journey began with a simple belief: technology should empower, not complicate. 
                   This philosophy drives every product we create, from virtual STEM laboratories 
                   that make science accessible to students everywhere, to legal tech solutions 
-                  that streamline the work of advocates.
+                  that streamline the work of advocates to language learning in a scientific and engaging way.
                 </p>
                 <p>
                   Based in the vibrant city of Kolkata, we combine local talent with global 
@@ -85,11 +85,11 @@ export default function About() {
                     <div className="text-sm text-slate-600">Live Products</div>
                   </div>
                   <div className="text-center p-4">
-                    <div className="text-4xl font-bold text-primary mb-2">10k+</div>
-                    <div className="text-sm text-slate-600">Active Users</div>
+                    <div className="text-4xl font-bold text-primary mb-2">20+</div>
+                    <div className="text-sm text-slate-600">Active Labs</div>
                   </div>
                   <div className="text-center p-4">
-                    <div className="text-4xl font-bold text-primary mb-2">5+</div>
+                    <div className="text-4xl font-bold text-primary mb-2">2+</div>
                     <div className="text-sm text-slate-600">Years Experience</div>
                   </div>
                   <div className="text-center p-4">
