@@ -34,7 +34,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-slate-400">
             <li>Kolkata, India</li>
             <li>founder@kuhedu.com</li>
-            <li>+91 (033) 1234-5678</li>
+            <li>(+91) 99113 85653</li>
           </ul>
         </div>
       </div>
