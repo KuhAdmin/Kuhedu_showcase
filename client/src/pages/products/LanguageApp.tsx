@@ -22,11 +22,6 @@ export default function LanguageApp() {
               Breaking language barriers with AI-driven learning paths. 
               Master French, Spanish, and more with our interactive platform.
             </p>
-            <div className="flex gap-4">
-              <Button size="lg" className="bg-white text-indigo-900 hover:bg-indigo-50 rounded-full px-8">
-                Try for Free
-              </Button>
-            </div>
           </div>
         </div>
       </div>
