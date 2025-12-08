@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import kuheduLogo from "@assets/kuhedu-logo_1765200795658.png";
+import kuheduLogo from "@assets/kuhedu_new_logo_1765202946764.png";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -19,9 +19,8 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-white/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/">
           <img src={kuheduLogo} alt="Kuhedu" className="h-10 w-auto" />
-          <span className="text-2xl font-bold font-heading text-primary tracking-tighter">Kuhedu</span>
         </Link>
 
         {/* Desktop Nav */}
