@@ -38,7 +38,9 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Button>Get in Touch</Button>
+          <Link href="/contact">
+            <Button>Get in Touch</Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -63,7 +65,9 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Button className="w-full">Get in Touch</Button>
+          <Link href="/contact" onClick={() => setIsOpen(false)}>
+            <Button className="w-full">Get in Touch</Button>
+          </Link>
         </div>
       )}
     </nav>
