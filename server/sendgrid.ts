@@ -51,7 +51,7 @@ export async function sendContactEmail(data: {
   
   const msg = {
     to: 'founder@kuhedu.com',
-    from: 'hello@campGPT.app',
+    from: fromEmail,
     subject: `Contact Form: ${data.subject}`,
     text: `
 New contact form submission from Kuhedu website
