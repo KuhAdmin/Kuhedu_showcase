@@ -18,8 +18,11 @@ export async function registerRoutes(
       await sendContactEmail({ firstName, lastName, email, subject, message });
       
       res.json({ success: true, message: "Message sent successfully" });
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error sending contact email:", error);
+      if (error.response?.body?.errors) {
+        console.error("SendGrid errors:", JSON.stringify(error.response.body.errors, null, 2));
+      }
       res.status(500).json({ error: "Failed to send message. Please try again later." });
     }
   });
