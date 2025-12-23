@@ -15,14 +15,20 @@ export async function registerRoutes(
         return res.status(400).json({ error: "All fields are required" });
       }
 
-      await sendContactEmail({ firstName, lastName, email, subject, message });
-      
-      res.json({ success: true, message: "Message sent successfully" });
-    } catch (error: any) {
-      console.error("Error sending contact email:", error);
-      if (error.response?.body?.errors) {
-        console.error("SendGrid errors:", JSON.stringify(error.response.body.errors, null, 2));
+      const submission = await storage.createContactSubmission({ 
+        firstName, lastName, email, subject, message 
+      });
+
+      try {
+        await sendContactEmail({ firstName, lastName, email, subject, message });
+        await storage.updateContactSubmissionEmailSent(submission.id, true);
+      } catch (emailError) {
+        console.error("Failed to send email notification, but submission saved:", emailError);
       }
+      
+      res.json({ success: true, message: "Message received successfully! We'll get back to you soon." });
+    } catch (error: any) {
+      console.error("Error processing contact form:", error);
       res.status(500).json({ error: "Failed to send message. Please try again later." });
     }
   });
