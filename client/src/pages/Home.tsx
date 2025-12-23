@@ -6,8 +6,6 @@ import { motion } from "framer-motion";
 
 // Import images
 import stemLabImg from "@assets/generated_images/virtual_science_laboratory_with_digital_overlays_for_stem_education.png";
-import languageAppImg from "@assets/generated_images/concept_art_for_language_learning_with_speech_bubbles_and_global_icons.png";
-import legalTechImg from "@assets/generated_images/digital_legal_technology_concept_with_digital_documents_and_security_lock.png";
 
 export default function Home() {
   const products = [
@@ -18,22 +16,6 @@ export default function Home() {
       image: stemLabImg,
       link: "/products/stemlab",
       tags: ["EdTech", "Virtual Reality", "STEM"]
-    },
-    {
-      id: "lingua",
-      title: "LinguaConnect",
-      description: "Master foreign languages like French and Spanish with our interactive learning platform designed for rapid fluency.",
-      image: languageAppImg,
-      link: "/products/language-app",
-      tags: ["EdTech", "Language", "Mobile"]
-    },
-    {
-      id: "legal",
-      title: "AdvocatePro",
-      description: "Comprehensive Legal Tech solution for advocates to manage cases, clients, and documentation securely.",
-      image: legalTechImg,
-      link: "/products/legal-tech",
-      tags: ["LegalTech", "SaaS", "Enterprise"]
     }
   ];
 

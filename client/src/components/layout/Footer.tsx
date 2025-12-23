@@ -16,8 +16,6 @@ export function Footer() {
           <h4 className="font-semibold text-white mb-4">Products</h4>
           <ul className="space-y-2 text-sm text-slate-400">
             <li><Link href="/products/stemlab" className="hover:text-primary transition-colors">StemLab</Link></li>
-            <li><Link href="/products/language-app" className="hover:text-primary transition-colors">LinguaConnect</Link></li>
-            <li><Link href="/products/legal-tech" className="hover:text-primary transition-colors">AdvocatePro</Link></li>
           </ul>
         </div>
 
